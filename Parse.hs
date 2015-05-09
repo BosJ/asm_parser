@@ -1,3 +1,8 @@
+
+{- Module   : Parse
+   Author   : Jaco Bos bos.jch@gmail.com, 2014  
+   Example  : startParser (unsafePerformIO $ readFile "fantasy.asm") -}
+
 import Control.Applicative((<*>), (<*), (*>))
 import Text.Parsec
 import Text.Parsec.String
