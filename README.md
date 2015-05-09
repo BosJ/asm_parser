@@ -1,4 +1,4 @@
-# haskell-assembly-parser
+# Haskell assembly code parser
 
 The data-types describe the formal lexical structure of a simple fantasy assembly language. Where all constructors of `Opcode`, `FUid`, `FUreg` and `RFid` become recognized tokens. With the following command (in GHCi) the fantasy.asm "program" is parsed and the abstract syntax of is obtained.
 
