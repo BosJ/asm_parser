@@ -4,7 +4,7 @@ The data-types describe the formal lexical structure of a simple fantasy assembl
 
 `> startParser (unsafePerformIO $ readFile "fantasy.asm")`
 
-The above command gives us the `InstrList`
+The above command gives us the `InstrList`:
 
 <pre><code>
 Seq [
